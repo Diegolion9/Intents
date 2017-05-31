@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp">
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           >
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Intents Explicitos"
+               android:gravity="center_horizontal"
+               android:textSize="30dp"
+               android:textStyle="bold"
+               android:layout_margin="10dp"
+               />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:weightSum="3">
+               <Button
+                   android:id="@+id/btnAbrir"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Abrir"
+                   android:drawableTop="@mipmap/ic_launcher_round"
+                   />
+               <Button
+                   android:id="@+id/btnEnviar"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Enviar"
+                   android:drawableTop="@mipmap/ic_launcher_round"
+                   />
+               <Button
+                   android:id="@+id/btnRecivir"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Recivir"
+                   android:drawableTop="@mipmap/ic_launcher_round"
+                   />
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Intents Explicitos"
+               android:gravity="center_horizontal"
+               android:textSize="30dp"
+               android:textStyle="bold"
+               android:layout_margin="10dp"
+               />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:weightSum="2">
+               <Button
+                   android:id="@+id/btnMarcado"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Marcado"
+                   android:drawableRight="@mipmap/ic_launcher_round"
+                   />
+               <Button
+                   android:id="@+id/btnLlamar"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Llamar"
+                   android:drawableRight="@mipmap/ic_launcher_round"
+                   />
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:weightSum="2">
+               <Button
+                   android:id="@+id/btnGmaps"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Gmaps"
+                   android:drawableRight="@mipmap/ic_launcher_round"
+                   />
+               <Button
+                   android:id="@+id/btnWeb"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Web"
+                   android:drawableRight="@mipmap/ic_launcher_round"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:weightSum="2">
+               <Button
+                   android:id="@+id/btnCompartirTexto"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Com. Texto"
+                   android:drawableRight="@mipmap/ic_launcher_round"
+                   />
+               <Button
+                   android:id="@+id/btnCompartirImag"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Com. Imagen"
+                   android:drawableRight="@mipmap/ic_launcher_round"
+                   />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:weightSum="2">
+               <Button
+                   android:id="@+id/btnEmail"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Email"
+                   android:drawableRight="@mipmap/ic_launcher_round"
+                   />
+               <Button
+                   android:id="@+id/btnAbrirApp"
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="Abr. App"
+                   android:drawableRight="@mipmap/ic_launcher_round"
+                   />
+
+           </LinearLayout>
+       </LinearLayout>
+   </ScrollView>
+
+
+</LinearLayout>
